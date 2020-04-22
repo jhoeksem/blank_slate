@@ -7,4 +7,4 @@ def greet(name):
     return string
 
 def square(x):
-    return x * 10
+    return x ** 2
