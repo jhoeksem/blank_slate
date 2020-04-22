@@ -1,0 +1,12 @@
+before_script:
+    - python --version
+    - pip install pytest
+
+stages:
+    - test
+        
+test:
+    stage: test
+    script:
+        - echo "Testing"
+        - pytest
