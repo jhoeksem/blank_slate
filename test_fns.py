@@ -11,3 +11,7 @@ def test_greet():
 def test_square():
     assert square(5) == 25
     assert square(2.5) == 6.25
+
+def test_dec():
+    assert dec(3) == 2
+    assert dec(5.5) == 4.5
