@@ -10,4 +10,4 @@ def square(x):
     return x ** 2
 
 def dec(x):
-    return x - 1
+    return x - 6
