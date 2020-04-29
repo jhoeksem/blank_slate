@@ -13,5 +13,5 @@ def test_square():
     assert square(2.5) == 6.25
 
 def test_dec():
-    assert dec(3) == 1
-    assert dec(5.5) == 3
+    assert dec(3) == 2
+    assert dec(5.5) == 4.5
